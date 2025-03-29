@@ -1,3 +1,4 @@
+import '@/polyfills';
 import { generateAPIUrl } from '@/utils';
 import { useChat } from '@ai-sdk/react';
 import { fetch as expoFetch } from 'expo/fetch';
