@@ -28,7 +28,7 @@ export default function App() {
             <View key={m.id} style={{ marginVertical: 8 }}>
               <View>
                 <Text style={{ fontWeight: 700, color: m.role === 'user' ? 'blue' : 'green' }}>{m.role}</Text>
-                <Text style={{ color: 'white', fontSize: 16 }}>{m.content}</Text>
+                <Text style={{ color: 'black', fontSize: 16 }}>{m.content}</Text>
               </View>
             </View>
           ))}

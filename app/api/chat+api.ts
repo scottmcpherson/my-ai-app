@@ -10,6 +10,9 @@ export async function POST(req: Request) {
   });
 
   return result.toDataStreamResponse({
-    headers: { 'Content-Type': 'application/octet-stream' },
+    headers: { 
+      'Content-Type': 'application/octet-stream',
+      'Content-Encoding': 'none',
+     },
   });
 }
